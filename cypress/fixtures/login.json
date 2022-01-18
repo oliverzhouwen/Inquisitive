@@ -1,0 +1,17 @@
+[
+    {
+        "type": "valid login",
+        "email": "aaa@gmail.com",
+        "password": "Inquisitive"
+    },
+    {
+        "type": "invalid email",
+        "email": "aaa",
+        "password": null
+    },
+    {
+        "type": "incorrect password",
+        "email": "aaa@gmail.com",
+        "password": "aaa"
+    }
+]

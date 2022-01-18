@@ -1,0 +1,19 @@
+{
+  "name": "inquisitive",
+  "version": "1.0.0",
+  "description": "Inquisitive interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliver Wen Zhou",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.2.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
